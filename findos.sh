@@ -1,15 +1,5 @@
 #!/bin/bash
 
-############################################################
-# Squid Proxy Installer
-# Author: Yujin Boby
-# Email: admin@serverOk.in
-# Github: https://github.com/serverok/squid-proxy-installer/
-# Web: https://serverok.in/squid
-# If you need professional assistance, reach out to
-# https://serverok.in/contact
-############################################################
-
 if cat /etc/os-release | grep PRETTY_NAME | grep "Ubuntu 22.04" > /dev/null; then
     echo "ubuntu2204"
 elif cat /etc/os-release | grep PRETTY_NAME | grep "Ubuntu 20.04" > /dev/null; then
